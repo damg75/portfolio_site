@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap"; // never forget the semicolon at the end
+@import "./_custom";
+@import "stylesheets/pages";
+
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  background-color: red;
+}
